@@ -1,7 +1,55 @@
-﻿.Titulo {
-    text-align: center;
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffafc;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
 }
 
-    .Titulo h3 {
-        color: #000;
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .titulo h3 {
+        font-size: 28px;
+        color: #c95b8c;
+        border-bottom: 2px solid #c95b8c;
+        display: inline-block;
+        padding-bottom: 5px;
     }
+
+.informacoes, .experiencia, .habilidades, .Contato {
+    background-color: #fff;
+    border-left: 5px solid #c95b8c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(201, 91, 140, 0.2);
+}
+
+    .informacoes h2 {
+        margin-top: 0;
+        color: #444;
+    }
+
+h1 {
+    font-size: 22px;
+    color: #c95b8c;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #c95b8c;
+    margin-top: 15px;
+}
+
+p {
+    margin: 5px 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
